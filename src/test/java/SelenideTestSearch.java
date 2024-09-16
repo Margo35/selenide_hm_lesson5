@@ -22,5 +22,6 @@ public class SelenideTestSearch {
             sleep(5000);
             $("#hero-section-brand-heading").shouldHave(text("The AI-powered developer platform."));
         }
+
 }
 
